@@ -1,90 +1,107 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projeto CCXP</title>
-    <link rel="stylesheet" href="style.css">
-
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <nav>
-        <img class="logoCCXP" src="logo.svg" width="120" height="70">
+      <img class="logoCCXP" src="logo.svg" width="120" height="70" />
+      <a href="#footer">LINK</a>
     </nav>
 
     <div class="conteiner">
+      <div id="text" class="menu-inicial">
+        <h1>REVIVA O ÉPICO</h1>
+        <h3>DE 01 A 04 DE DEZEMBRO</h3>
+        <br />
+        <p>
+          Você consegue sentir? É aquela sensação de
+          <br />finalmente poder falar em voz alta: "estamos <br />em casa".
+          Sim, em dezembro de 2022, <br />teremos a volta da CCXP física. Mas
+          não será <br />qualquer CCXP, vai ser a maior de todos os
+          <br />tempos. Prepare-se para visitar seus <br />universos favoritos,
+          explorar o Artists' Valley, <br />se emocionar nos auditórios e
+          encontrar <br />aventuras épicas a cada passo pelos nossos
+          <br />corredores.
+        </p>
 
-        <div id="text" class="menu-inicial">
-            <h1>REVIVA O ÉPICO</h1>
-            <h3>DE 01 A 04 DE DEZEMBRO</h3>
-            <br>
-            <p>
-                Você consegue sentir? É aquela sensação de
-                <br>finalmente poder falar em voz alta: "estamos
-                <br>em casa". Sim, em dezembro de 2022,
-                <br>teremos a volta da CCXP física. Mas não será
-                <br>qualquer CCXP, vai ser a maior de todos os
-                <br>tempos. Prepare-se para visitar seus
-                <br>universos favoritos, explorar o Artists' Valley,
-                <br>se emocionar nos auditórios e encontrar 
-                <br>aventuras épicas a cada passo pelos nossos 
-                <br>corredores.
-            </p>
-            
-            <div id="ingressos">
-                <h5>AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</h5>
-                <img 
-                onclick="selectCard('#quinta')"
-                class="size" onmouseover="hightlightCard('#quinta')" 
-                id="quinta" src="qui.svg" alt="">
+        <div id="ingressos">
+          <h5>AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</h5>
+          <img
+            onclick="selectCard('#quinta')"
+            class="size"
+            onmouseover="hightlightCard('#quinta')"
+            id="quinta"
+            src="qui.svg"
+            alt=""
+          />
 
-                <img
-                onclick="selectCard('#sexta')"
-                class="size" onmouseover="hightlightCard('#sexta')"
-                id="sexta" src="sext.svg" alt="">
+          <img
+            onclick="selectCard('#sexta')"
+            class="size"
+            onmouseover="hightlightCard('#sexta')"
+            id="sexta"
+            src="sext.svg"
+            alt=""
+          />
 
-                <img
-                onclick="selectCard('#esgot')"
-                class="size" onmouseover="hightlightCard('#esgot')" 
-                id="esgot" src="esgot.svg" alt="">
+          <img
+            onclick="selectCard('#esgot')"
+            class="size"
+            onmouseover="hightlightCard('#esgot')"
+            id="esgot"
+            src="esgot.svg"
+            alt=""
+          />
 
-                <img
-                onclick="selectCard('#domi')"
-                class="size" onmouseover="hightlightCard('#domi')" 
-                id="domi" src="dom.svg" alt="">
-            </div>
-            <div>
-                <form action="">
-                    <input type="email" placeholder="Seu Email" required>
-                    <input type="submit">
-                </form>
-            </div>
-            </div>
+          <img
+            onclick="selectCard('#domi')"
+            class="size"
+            onmouseover="hightlightCard('#domi')"
+            id="domi"
+            src="dom.svg"
+            alt=""
+          />
+        </div>
+        <div>
+          <form action="">
+            <input type="email" placeholder="Seu Email" required />
+            <input type="submit" />
+          </form>
+        </div>
+      </div>
 
-
-        <section class="sessao">
-            <div class="conteiner">
-               <div>
-                    <h1 id="dia"> 00D </h1>  
-               </div>
-               <div>
-                    <h1 id="hora"> 00H </h1>
-               </div>
-               <div>
-                    <h1 id="min"> 00M </h1>
-               </div>
-               <div>
-                    <h1 id="segun"> 00S </h1>
-               </div>
-            </div>   
-            <h4>PARA A MAIOR CCXP DE TODOS OS TEMPOS</h4>
-            <video width="640" controls loop  src="Alerquina.mp4" type="video/mp4"></video>
-            <button>GARANTA O SEU!</button>
-        </section>
-
-        
+      <section class="sessao">
+        <div class="conteiner">
+          <div>
+            <h1 id="dia">00D</h1>
+          </div>
+          <div>
+            <h1 id="hora">00H</h1>
+          </div>
+          <div>
+            <h1 id="min">00M</h1>
+          </div>
+          <div>
+            <h1 id="segun">00S</h1>
+          </div>
+        </div>
+        <h4>PARA A MAIOR CCXP DE TODOS OS TEMPOS</h4>
+        <video
+          width="640"
+          controls
+          loop
+          src="Alerquina.mp4"
+          type="video/mp4"
+        ></video>
+        <button>GARANTA O SEU!</button>
+      </section>
     </div>
     <script src="index.js"></script>
     <script src="main.js"></script>
-</body>
+  </body>
+  <footer id="footer"></footer>
 </html>
