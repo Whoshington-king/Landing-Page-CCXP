@@ -1,0 +1,94 @@
+body{
+    font-family: verdana;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    margin-bottom: 40px;
+    background-color: #FFD900;
+
+}
+nav .logoCCXP{
+    margin-left: 58px;
+}
+.conteiner{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+}
+#text p{
+    font-size: 20px;
+    font-weight:550;
+}
+.menu-inicial{
+    width: 600px;
+    height: 500px;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #514988;
+}
+.menu-inicial h1{
+    font-size: 50px;
+    color: #F3C61F;
+}
+section{
+    margin-left: 100px;
+}
+section h1{
+    color:#514988;
+    margin-top: -2px;
+    margin-bottom: -10px;
+    font-size: 45px;
+}
+section h4{
+    margin-left: 15px;
+    color: #E33881;
+}
+section video{ 
+    padding-bottom: 25px;
+    display: grid;
+}
+button{
+    background-color:#514988;
+    color:#FFFFFF;
+    border: none;
+    font-size: 30px;
+    padding: 20px 10px 20px 10px;
+    border-radius: 15px;
+    margin-left: 30%;
+    margin-top: 95px;
+}
+button:hover{
+    cursor: pointer;
+    color: #F3C61F;
+}
+.ingressos{
+    margin-left:40px;
+}
+.size{
+    margin-bottom: 100px;
+    width: 140px;
+}
+#ingressos h5{
+    margin-top: 100px;
+    color: #F3C61F;
+    font-size: 20px;
+}
+.card-higthlight{
+    box-shadow: 10px 10px 10px 10px gray;
+} 
+.cards-ingressos{
+    border: 5px solid green;
+}
+input{
+    background-color: #514988;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: 0px;
+    margin:22px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
